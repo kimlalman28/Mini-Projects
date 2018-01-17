@@ -1,28 +1,21 @@
 
+.circle {
+    width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	float: left;
+	margin: 20px;
+}
 
-#red-circle {
+
+#red {
 	background-color: red;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 20px;
 }
 
-#blue-circle {
+#blue {
 	background-color: blue;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 20px;
-
 }
 
-#green-circle {
+#green {
 	background-color: green;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	float: left;
 }
