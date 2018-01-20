@@ -7,33 +7,116 @@
 
     <!-- Bootstrap CSS -->
     
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Home | Kimberly</title>
   </head>
   <body>
   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">KCL</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">The App</a>
-          <a class="nav-item nav-link" href="#">Download</a>
-          <a class="nav-item nav-link" href="#">About Us</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id = "nav-padding">
+        <a class="navbar-brand" href="#">KCL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">The App</a>
+                <a class="nav-item nav-link" href="#">Download</a>
+                <a class="nav-item nav-link" href="#">About Us</a>
+            </div>
         </div>
-      </div>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="E-mail">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log-in</button>
+        </form>
     </nav>
+    
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+          <h1 class="display-4">Simplicity at its finest</h1>
+            <p class="lead">Fugiat incurreret occaecat est ne quis pariatur voluptatibus.</p>
+          <hr class="my-4">
+            <p>Nostrud est occaecat. Quorum est iudicem o senserit graviterque o officia, ea te 
+                efflorescere est an ipsum ullamco expetendis o multos ea cupidatat ad sint, 
+                noster tempor despicationes, tamen sed vidisse e lorem se ingeniis sed eiusmod. 
+                Duis nostrud ut incididunt se ne offendit consectetur. Quae doctrina ne cillum 
+                quem, officia fore quid commodo illum et deserunt amet ut nescius coniunctione 
+                est ita ex lorem sunt dolor, sed aute doctrina instituendarum nam ita aute 
+                despicationes si labore sed singulis, singulis eu summis.</p>
+            <p>Coming soon! Sign up to be notified when launched in app store!</p>
+            <form>
+              <div class="form-group">
+                   <div class="col-md-4 offset-md-4">
+                    <input type="email" class="form-control" id="notify" placeholder="Enter email">
+                  </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Notify Me!</button>
+            </form>
+        </div>        
+    </div>
 
-   
-   
-   
-   
-   
-   
+    <div class="container-fluid">
+        <div class="row text-center">
+           <div class="col">
+                <h1 class="display-5">Your road to creativity</h1>
+                <p class="lead" id="app-summary">Irure distinguantur voluptate veniam aliquip, voluptate hic voluptate. E anim 
+                    culpa eram arbitror, a ipsum vidisse. Quo veniam varias sed officia.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Efficiency</h5>
+                    <p class="card-text">Quis quibusdam ad eruditionem. Senserit nulla fore non multos, velit appellat 
+                        consectetur ita probant aute eram officia elit ita e quem anim in senserit, quo 
+                        aute tempor praetermissum, ne probant firmissimum, esse admodum aut vidisse si 
+                        minim senserit pariatur.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Portability</h5>
+                    <p class="card-text"> Illum se eiusmod. Sint de do amet pariatur, dolore 
+                        praesentibus proident labore officia. Nescius ne dolore eiusmod si iis de elit 
+                        mandaremus nam duis aliquip arbitrantur se si fugiat fugiat quem deserunt, aut 
+                        multos incurreret philosophari, eu te dolore cillum amet, fugiat relinqueret 
+                        vidisse esse officia, veniam litteris ubi incurreret.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Scalability</h5>
+                    <p class="card-text"> Nescius ubi nostrud, est 
+                        quae philosophari, multos senserit est sunt minim an aut eram eiusmod occaecat 
+                        est quem firmissimum aliquip fore commodo se malis officia cupidatat, de dolore 
+                        nisi aut mentitum ut elit iis te aute singulis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" id="download">
+        <div class="row text-center">
+            <div class="col">
+                <h2>Want to be a beta tester?</h2>
+                <p class="lead">Download the beta from the app store to preview the app before it's out</p>
+                <a href=""><img src="image2.png"></a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+ 
    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

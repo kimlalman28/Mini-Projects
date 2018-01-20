@@ -1,3 +1,43 @@
-nav {
-    padding: 30px;
+
+#nav-padding {
+    padding: 15px;
+    font-size: 18px;
 }
+
+.jumbotron {
+    background-image: url(image1.png);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    min-height: 500px;
+    background-size: cover;
+}
+
+#app-summary {
+    margin: 20px;
+}
+
+.card-img-top {
+    max-height: 230px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/*
+.card-body {
+    background-color: #343A40;
+    color: white;
+}
+*/
+
+#download {
+    margin-top: 40px;
+    background-image: url(image1.png);
+}
+
+#download img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
