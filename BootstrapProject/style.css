@@ -1,3 +1,7 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    position: relative;
+}
 
 #nav-padding {
     padding: 15px;
@@ -5,10 +9,10 @@
 }
 
 .jumbotron {
-    background-image: url(image1.png);
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-image: url(img/image1.png);
     min-height: 500px;
     background-size: cover;
+    margin-top: 50px;
 }
 
 #app-summary {
@@ -32,12 +36,16 @@
 
 #download {
     margin-top: 40px;
-    background-image: url(image1.png);
+    background-image: url(img/image1.png);
 }
 
 #download img {
     width: 100px;
     height: 50px;
     margin-bottom: 20px;
+}
+
+#download .row {
+    padding-top: 20px;
 }
 

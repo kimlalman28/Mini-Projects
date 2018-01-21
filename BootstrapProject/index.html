@@ -12,19 +12,19 @@
 
     <title>Home | Kimberly</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#nav-padding" data-offset="50">
   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id = "nav-padding">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id = "nav-padding">
         <a class="navbar-brand" href="#">KCL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">The App</a>
-                <a class="nav-item nav-link" href="#">Download</a>
-                <a class="nav-item nav-link" href="#">About Us</a>
+                <a class="nav-item nav-link active" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">The App</a>
+                <a class="nav-item nav-link" href="#download">Download</a>
+<!--                <a class="nav-item nav-link" href="#">About Us</a>-->
             </div>
         </div>
         <form class="form-inline my-2 my-lg-0">
@@ -34,7 +34,7 @@
         </form>
     </nav>
     
-    <div class="jumbotron jumbotron-fluid text-center">
+    <div class="jumbotron jumbotron-fluid text-center" id="jumbotron">
         <div class="container">
           <h1 class="display-4">Simplicity at its finest</h1>
             <p class="lead">Fugiat incurreret occaecat est ne quis pariatur voluptatibus.</p>
@@ -58,7 +58,7 @@
         </div>        
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="about">
         <div class="row text-center">
            <div class="col">
                 <h1 class="display-5">Your road to creativity</h1>
@@ -67,11 +67,11 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="img1.jpg" alt="Card image cap">
+                <img class="card-img-top" src="img/img1.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Efficiency</h5>
                     <p class="card-text">Quis quibusdam ad eruditionem. Senserit nulla fore non multos, velit appellat 
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img2.jpg" alt="Card image cap">
+                <img class="card-img-top" src="img/img2.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Portability</h5>
                     <p class="card-text"> Illum se eiusmod. Sint de do amet pariatur, dolore 
@@ -92,7 +92,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img3.jpg" alt="Card image cap">
+                <img class="card-img-top" src="img/img3.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Scalability</h5>
                     <p class="card-text"> Nescius ubi nostrud, est 
@@ -103,21 +103,19 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container-fluid" id="download">
         <div class="row text-center">
             <div class="col">
                 <h2>Want to be a beta tester?</h2>
                 <p class="lead">Download the beta from the app store to preview the app before it's out</p>
-                <a href=""><img src="image2.png"></a>
+                <a href=""><img src="img/image2.png"></a>
             </div>
         </div>
     </div>
     
     
 
- 
-   
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
