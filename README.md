@@ -6,4 +6,4 @@ This repository is used to store small projects that showcase and test new thing
 
 **Disappearing Circles:** Javascript
 <br />
-**Bootstrap Project:** Practice with bootBootstrap
+**Bootstrap Project:** Practice with Bootstrap
