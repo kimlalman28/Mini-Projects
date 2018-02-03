@@ -12,3 +12,22 @@ document.getElementById("user-submit").onclick = function () {
     }
 }
 
+
+document.getElementById("guess").onclick = function() {
+	var myNumber = document.getElementById('my-fingers').value;
+	var guess;
+	var guesses = 0;
+	var correctGuess = false;
+
+	while(correctGuess == false){
+		guess = Math.floor(Math.random() * 6);
+		if(guess == myNumber){
+			correctGuess = true;
+			alert("Computer got the correct answer after " + guesses + " guesses.");
+		}
+		else{
+			guesses++;
+		}
+	}
+
+}
